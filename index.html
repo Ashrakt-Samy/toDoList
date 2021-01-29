@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="E:\Coding\JS\toDoList\style.css" />
+    <script src="https://kit.fontawesome.com/39beba043b.js" crossorigin="anonymous"></script>
+
+<body>
+    <div">
+        <p id="date"></p>
+        </div>
+        <div class="container">
+            <div>
+
+                <div class="heading">
+                    <span class="title">Hallo!</span><br />
+                    <span class="title"> Let's start for today shall we</span><br><br>
+                    <input id="listItem" type="text" placeholder="Write Your Task" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Write Your Task'" />
+                    <button onclick="createTask()" id="add">Add</button><br />
+                </div>
+            </div>
+
+            <div id="element">
+                <ul id="myList"></ul>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script>
+
+        <script src="E:\Coding\JS\toDoList\index1.js"></script>
+</body>
+
+</html>
